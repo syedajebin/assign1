@@ -11,7 +11,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 #banner{
-    background-image: url(flood.jpg);
+    background-image: url(images/flood.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,6 +54,7 @@ font-family: 'Roboto', sans-serif;
 /* donate today start */
 #donate-today {
      background-color: #f4fdf4 ;
+     padding: 15px;
   }
   .donate-today-text {
     font-family: 'Lato', sans-serif;
@@ -114,7 +115,8 @@ font-family: 'Roboto', sans-serif;
 
   #donation-plan {
     width: 100%;
-    padding: 25px 0px;
+    padding-top: 25px ;
+    padding-bottom: 30px;
      background-color: whitesmoke;
   }
   .donation-plan {
@@ -163,9 +165,10 @@ font-family: 'Roboto', sans-serif;
   /*  Donate Plan Ends */
 
   .first-text{
-    padding-left: 500px;
-    margin-top: 5px;
-    
+   /* padding-left: 500px;
+    margin-top: 5px;*/
+    text-align: center;
+    margin: 30px 0px;
 }
 .portal{
     display: flex;
@@ -173,18 +176,19 @@ font-family: 'Roboto', sans-serif;
 
 }
 .blog{
-    padding: 20px;
+    padding: 10px;
     margin-right: 3px;
+    text-align: justify;
 }
 
 .blog a{
     text-decoration: none;
 }
 .news-btn{
-    margin:  0px;
+    margin:  20px 0px;
     display: inline-block;
     background-image: linear-gradient(orange,red);
-    padding: 10px 10px;
+    padding: 10px 5px;
     border-radius: 7px;
     text-decoration: none;
     color: white;
@@ -196,9 +200,10 @@ font-family: 'Roboto', sans-serif;
     background-color:orange;
     color: white;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     
 }
+
  /*  news section Ends */
  #update {
     margin-bottom: 30px;
