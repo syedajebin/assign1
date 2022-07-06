@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#banner{
+    background-image: url(images/donation9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.banner-text{
+    text-align: centre;
+    color: aliceblue;
+    padding-top: 200px;
+}
+.banner-text h1{
+    font-size: 90px;
+    padding-left: 150px;
+    color:white;
+    font-weight: bolder;
+}
+.banner-text p{
+    font-size: 30px;
+    padding-left: 400px;
+    color:red;
+    font-weight: 900;
+
+}
+.btn{
+   
+    text-decoration: none;
+    
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 25px;
+    display: inline-block;
+    background-image: linear-gradient(orange,red);
+    padding: 8px 10px;
+    border-radius: 7px;
+
+
+    
+    
+    
+}.button{
+    text-align: center;
+}
