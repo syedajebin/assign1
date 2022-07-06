@@ -11,7 +11,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 #banner{
-    background-image: url(images/donation9.jpg);
+    background-image: url(images/donation13.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif;
 .banner-text p{
     font-size: 30px;
     padding-left: 400px;
-    color:red;
+    color:white;
     font-weight: 900;
 
 }
@@ -43,14 +43,69 @@ font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 25px;
     display: inline-block;
-    background-image: linear-gradient(orange,red);
+    background-image: linear-gradient(red ,orange);
     padding: 8px 10px;
-    border-radius: 7px;
-
-
-    
-    
-    
-}.button{
+    border-radius: 7px;    
+}
+.button{
     text-align: center;
 }
+
+/* donate today start */
+#donate-today {
+     background-color: #d0f0c0; 
+  }
+  .donate-today-text {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+  }
+  .donate-today-text h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 11px;
+  }
+  
+  .donate-box {
+    margin: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .amount-text{
+    margin: 0px 15px;
+    padding: 45px;
+    /* border: 1px solid; */
+    border-radius: 6px;
+    background-color: #D3D3D3;
+  }
+  .amount-active-color {
+    background-color: rgba(240, 145, 131, 0.3);
+    border: 3px solid #ff5b40;
+  }
+  .donation-input-field {
+    width: 760px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  #donation-input-field {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(203, 202, 202);
+  }
+  .donate-btn-2  {
+    margin: 15px 0px;
+    display: inline-block;
+    background-image: linear-gradient(red,orangered);
+    padding: 10px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+
+  }
